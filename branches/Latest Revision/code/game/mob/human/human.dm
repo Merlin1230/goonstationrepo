@@ -871,7 +871,7 @@
 	if (src.w_uniform)
 		src.w_uniform.screen_loc = "2,2"
 		if (istype(src.w_uniform, /obj/item/weapon/clothing/under))
-			var/t1 = src.w_uniform.color
+			var/t1 = src.w_uniform.color_fake
 			if (!t1)
 				t1 = src.icon_state
 

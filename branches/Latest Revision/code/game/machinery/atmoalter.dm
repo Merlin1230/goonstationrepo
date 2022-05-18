@@ -308,10 +308,10 @@
 	src.overlays = 0
 
 	if (src.destroyed)
-		src.icon_state = text("[]-1", src.color)
+		src.icon_state = text("[]-1", src.color_fake)
 
 	else
-		icon_state = "[color]"
+		icon_state = "[color_fake]"
 		if(holding)
 			overlays += image('canister.dmi', "can-oT")
 

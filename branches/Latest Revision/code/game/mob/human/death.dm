@@ -7,7 +7,7 @@
 	emote("deathgasp") //let the world KNOW WE ARE DEAD
 	src.canmove = 0
 	if(src.client)
-		src.blind.layer = 0
+		src.blind.layer = BACKGROUND_LAYER
 	src.lying = 1
 	var/h = src.hand
 	src.hand = 0

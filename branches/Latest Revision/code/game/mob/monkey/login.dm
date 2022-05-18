@@ -67,7 +67,7 @@
 	src.hands.screen_loc = "1,3"
 	src.blind.screen_loc = "1,1 to 15,15"
 	src.flash.screen_loc = "1,1 to 15,15"
-	src.blind.layer = 0
+	src.blind.layer = BACKGROUND_LAYER
 	src.flash.layer = 17
 	src.sleep.layer = 20
 	src.rest.layer = 20
